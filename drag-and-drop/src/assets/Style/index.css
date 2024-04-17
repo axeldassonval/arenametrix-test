@@ -1,0 +1,61 @@
+.file-dropzone {
+  width: 100%; /* Occupy full width */
+  height: 200px; /* Adjust height as needed */
+  border: 1px dashed #ccc; /* Dotted border */
+  border-radius: 5px; /* Rounded corners */
+  text-align: center;
+  padding: 50px 0; /* Center content vertically */
+  cursor: pointer; /* Indicate clickable area */
+}
+
+.file-dropzone p {
+  margin: 0;
+  font-size: 16px;
+  color: #999;
+}
+
+/* Style for when files are dropped */
+.file-dropzone.active {
+  background-color: #eee;
+}
+
+/* Style for when files are being dragged over */
+.file-dropzone:hover {
+  background-color: #f0f0f0;
+}
+
+.btn-arenametrix {
+  background-color: rgba(89, 106, 238, 1) !important;
+  border: 1px solid rgba(89, 106, 238, 1) !important;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff !important;
+  cursor: pointer;
+  font-size: 16px !important;
+  font-weight: bold !important;
+}
+
+.cancel-btn {
+  background-color: #fff !important;
+  border: 1px solid #f00 !important;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #f00 !important;
+  cursor: pointer;
+}
+
+.card {
+  border-radius: 0.7rem !important;
+}
+
+.bg-arenametrix {
+  background-color: rgba(89, 106, 238, 1) !important;
+}
+
+.table-contenent {
+  background-color: #fff;
+  width: 80%;
+  border-radius: 0.7rem;
+}
